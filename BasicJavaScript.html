@@ -1,76 +1,51 @@
-<!DOCTYPE html>
-<!-- 
-    Name:
-    Date:
-    Semester:
 
-    Additional Instructions: Remember to document your work with comments through out this assignment
+<!DOCTYPE html>
+<!--
+    Name: Biplov Parajuli
+    Section: CSCI 3803
+    Date: November 1, 2026
+    Semester: Fall 2026
+
+    Additional Instructions: Remember to document your work with comments throughout this assignment.
 -->
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="initial-scale=1.0,maximum-scale=1.0,width=device-width"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Chapter 08 - Project 01</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <script src="js/data.js" type="text/JavaScript"></script>
-    <script src="js/functions.js" type="text/JavaScript"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/data.js"></script>
+    <script src="js/functions.js"></script>
   </head>
 
   <body>
     <div class="title">
       <h1>Shopping Cart</h1>
     </div>
+
     <table class="table-fill">
       <thead>
         <tr>
           <th colspan="2">Product</th>
-          <th>#</th>
-          <th>Price</th>
-          <th>Amount</th>
+          <th scope="col">#</th>
+          <th scope="col">Price</th>
+          <th scope="col">Amount</th>
         </tr>
       </thead>
+
       <tbody>
-        <tr>
-          <td><img src="images/106020.jpg" /></td>
-          <td>Girl with a Pearl Earring</td>
-          <td>5</td>
-          <td>$120.00</td>
-          <td>$600.00</td>
-        </tr>
-        <tr>
-          <td><img src="images/116010.jpg" /></td>
-          <td>Artist Holding a Thistle</td>
-          <td>2</td>
-          <td>$150.00</td>
-          <td>$300.00</td>
-        </tr>
-        <tr>
-          <td><img src="images/120010.jpg" /></td>
-          <td>Portrait of Eleanor of Toledo</td>
-          <td>1</td>
-          <td>$90.00</td>
-          <td>$90.00</td>
-        </tr>
-        <tr class="totals">
-          <td colspan="4">Subtotal</td>
-          <td>$990.00</td>
-        </tr>
-        <tr class="totals">
-          <td colspan="4">Tax</td>
-          <td>$148.50</td>
-        </tr>
-        <tr class="totals">
-          <td colspan="4">Shipping</td>
-          <td>$40.00</td>
-        </tr>
-        <tr class="totals focus">
-          <td colspan="4">Grand Total</td>
+        <!-- Hidden row provides cells for all five table columns -->
+        <tr hidden>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td></td>
         </tr>
+
+        <!-- Generate shopping cart rows using JavaScript -->
+        <script src="js/BasicJavaScript.js"></script>
       </tbody>
     </table>
   </body>

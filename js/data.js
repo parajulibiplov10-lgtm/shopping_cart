@@ -8,7 +8,6 @@ var titles = [
 ];
 var quantities = [5, 2, 1];
 var prices = [120, 150, 90];
-
 /* 
    NOTE: parallel arrays are not an ideal way to represent this data.
          We have done this to simplify this exercise.
