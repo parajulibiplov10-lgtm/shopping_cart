@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "csci3803-f26"
+assignment: "basic-javascript"
+owner:
+  username: "bparajuli1-arch"
+  id: 238570121
+  accepted_at: "2026-11-01T20:10:41Z"
+source:
+  owner: "TWUCSCI"
+  owner_id: 76087654
+  repo: "BasicJavaScript-template"
+  branch: "main"
