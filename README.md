@@ -53,7 +53,8 @@ Through this project, I practiced using JavaScript arrays, loops, functions, and
 
 ## Project Screenshot
 
-![JavaScript Shopping Cart Screenshot](shopping-cart.png)
+![JavaScript Shopping Cart Screenshot](shopping_cart.png)
+
 
 ## Author
 
