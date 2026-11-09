@@ -1,30 +1,58 @@
-#### Instructions Practice
+# JavaScript Shopping Cart
 
-- You must submit valid and semantically appropriate HTML5.
-- You have been provided with the HTML file `BasicJavaScript.html` that include the markup for the finished version, as well as a css stylesheet and 3 javascript files. Preview the files in a browser.
-- All pages in your site must contain a comment with your name, section, and date.
+A simple shopping cart web application built using HTML, CSS, and JavaScript. This project demonstrates how JavaScript can be used to display shopping cart items, perform calculations, and generate HTML content dynamically.
 
-#### Functional Requirements: Basic JavaScript Hands-on Practice
+## Project Overview
 
-Demonstrate your proficiency with loops, conditionals, arrays, and functions in JavaScript. The final product should look similar to that shown below.
+The shopping cart displays products with their images, names, quantities, prices, and total costs. JavaScript automatically calculates the subtotal, tax, shipping cost, and grand total based on the product information.
 
-- Complete the assignment as directed below and within the image.
-- Test the page in the browser. Verify that the calculations work appropriately by changing the values in the `data.js` file.
+## Features
 
-1. You have been provided with the HTML file `BasicJavaScript.html` that includes the markup for the finished version. Preview the file in a browser.
-2. Examine the data file `data.js`. It contains 4 arrays that we are going to use to programmatically generate the data rows (and replace the hard-coded values supplied in the HTML file).
-3. Open the JavaScript file `functions.js` and create a function called `calculateTotal()` that is passed a quantity and price and returns their product (i.e., multiply the two parameter values and return the result).
-4. Within `functions.js`, create a function called `outputCartRow()` that has the following signature: function `outputCartRow(file, title, quantity, price, total) {}`
-5. Implement the body of this function. It should use `document.write()` calls to display a row of the table using the passed data. Use the `toFixed()` method of number variables to display two decimal places.
-6. Replace the three cart table rows in the original markup with a JavaScript Loop that repeatedly calls `outputCartRow()` function. Put this loop within the `BasicJavaScript.js` file. Add the appropriate `<script>` tag to reference this `BasicJavaScript.js` file within the `<tbody>` element.
-7. Calculate the subtotal, tax, shipping, and grand total using JavaScript calculations. Use `15%` as the tax amount. The shipping amount should be `$40` unless the subtotal is above `$1000`, in which case it will be `$0`.
+- Displays product information in a shopping cart table.
+- Uses JavaScript arrays to store product details.
+- Generates shopping cart rows dynamically using loops and functions.
+- Calculates the total price for each product.
+- Calculates a 15% sales tax.
+- Applies a $40 shipping fee for orders with a subtotal of $1,000 or less.
+- Provides free shipping when the subtotal exceeds $1,000.
+- Displays prices with two decimal places.
 
-#### Test
+## Technologies Used
 
-- Test the page in the browser. Verify that the calculations work appropriately by changing the values in the `data.js` file.
+- **HTML5** — Page structure and shopping cart table
+- **CSS3** — Styling and layout
+- **JavaScript** — Arrays, loops, functions, conditionals, and calculations
 
-![Replace Markup with JavaScript Loop using supplied array;Create function to output a single cart row, replace markup with calls to function, and create function to calculate these values](images/JS-Basic-instructions.jpg?raw=true "Basic JavaScript instructions image with annotations")
+## How to Run
 
-## Submitting
+1. Download or clone this repository.
+2. Open the project folder.
+3. Open `BasicJavaScript.html` in a web browser.
+4. View the shopping cart and its calculated totals.
 
-Post the link to your GitHub Classroom Repository to the Canvas Assignment Basic JavaScript assignment dropbox in Canvas.
+## How It Works
+
+The application uses JavaScript arrays to store product information, including filenames, product names, quantities, and prices.
+
+The `calculateTotal()` function calculates the total cost of each product.
+
+The `outputCartRow()` function generates shopping cart table rows using the product information.
+
+JavaScript also calculates the subtotal, tax, shipping fee, and final total.
+
+## What I Learned
+
+Through this project, I practiced using JavaScript arrays, loops, functions, and conditional statements. I also learned how to generate HTML content dynamically and perform calculations using JavaScript.
+
+## Future Improvements
+
+- Add buttons to increase or decrease product quantities.
+- Allow users to remove products from the cart.
+- Update totals automatically when quantities change.
+- Add a more responsive design for mobile devices.
+
+## Author
+
+Biplov Parajuli
+
+GitHub: [bparajuli1-arch](https://github.com/bparajuli1-arch)
