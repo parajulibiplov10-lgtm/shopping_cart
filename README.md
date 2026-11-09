@@ -51,6 +51,10 @@ Through this project, I practiced using JavaScript arrays, loops, functions, and
 - Update totals automatically when quantities change.
 - Add a more responsive design for mobile devices.
 
+## Project Screenshot
+
+![JavaScript Shopping Cart Screenshot](shopping-cart.png)
+
 ## Author
 
 Biplov Parajuli
